@@ -70,10 +70,10 @@ export default function Navbar() {
   // ... (Keep navItems and menuContent) ...
   const navItems = ["MEN", "WOMEN", "KIDS & BABY", "HOME", "DISCOVER", "SALE"];
   const menuContent = { /* ... keep your existing menu content ... */ };
-
+    
   return (
     <nav className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${scrolled ? "bg-white text-black shadow-sm border-b" : "bg-transparent text-white"} group`}>
-      
+       
       {/* ... (Keep Top Strip & Logo) ... */}
       <div className="bg-[#002e3e] text-white text-sm text-center py-1">
         Summer Sale | <span className="underline cursor-pointer">Shop Now</span>
