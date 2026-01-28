@@ -52,7 +52,7 @@ export default function Hero() {
             { label: "BOYS", path: "boys" },
             { label: "GIRLS", path: "girls" },
             { label: "BABY", path: "baby" },
-            { label: "HOME", path: "hoe" },
+            { label: "HOME", path: "home" },
           ].map(({ label, path }, i) => (
             <Link href={`/${path}`} key={i}>
               <button className="border border-white px-5 py-1 rounded-full text-xs tracking-wider hover:bg-white hover:text-black transition">
