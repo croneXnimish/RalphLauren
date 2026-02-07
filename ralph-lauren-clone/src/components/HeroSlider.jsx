@@ -58,7 +58,7 @@ export default function HeroSlider() {
                   {slide.title}
                 </h2>
                 <button className="bg-white text-black px-10 py-4 uppercase text-xs font-bold tracking-[0.15em] hover:bg-[#001f2a] hover:text-white transition duration-300">
-                  Shop Now
+                  <a href="/mensection">Shop Now</a>
                 </button>
               </div>
             </div>
